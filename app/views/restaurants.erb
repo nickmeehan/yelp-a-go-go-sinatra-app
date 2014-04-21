@@ -1,0 +1,10 @@
+<div class="container">
+  <ol>
+    <% @restaurants.each do |restaurant|  %>
+        <li><p><%= restaurant.name %></p>
+            <p><%= restaurant.address %></p>
+            <p><%= restaurant.rating %></p>
+        </li>
+    <% end %>
+  </ol>
+</div>
